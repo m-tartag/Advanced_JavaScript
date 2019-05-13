@@ -1,0 +1,39 @@
+// Syntax Parser :
+// --------------
+// A Program that reads your code and dertermines what it does and
+// if its grammar is solid.
+// the intermediate program that runs your code
+
+// Lexical Environment:
+// --------------------
+// where something sits physically in the code you write
+// where its written ... what surrounds it
+
+// Execution Context
+// -----------------
+// A wrapper to help manage the code that is running
+
+// Execution Context (Global):
+// In Browser:
+// Global Object "this" "window"
+
+// Creation and Hoisting
+
+// Single-Threaded: One command at a time
+// Synchronus: One at a time (AND IN ORDER)
+
+// Function Invocation and the Execution Stack
+// -------------------------------------------
+
+// Invocation: Running a Function.. ()
+
+    function b() {
+
+    }
+    function a() {
+        b()
+    }
+    a();
+
+// Anytime you INVOKE.. it is added to the top of the
+// GLOBAL EXECUTION STACK
