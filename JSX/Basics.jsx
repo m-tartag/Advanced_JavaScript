@@ -24,3 +24,26 @@ class MyComponent extends React.Component {
     );
   }
 }
+
+// React: Create a Component with Composition
+
+const ChildComponent = () => (
+      <div>
+        <p>I am the child</p>
+      </div>
+    );
+
+class ParentComponent extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+
+  render() {
+    return (
+      <div>
+        <h1>I am the parent</h1>
+        <ChildComponent />
+      </div>
+    );
+  }
+}
