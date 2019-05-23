@@ -24,3 +24,7 @@ const { first: FNAME, last: LNAME } = Obj;
 
 console.log('FNAME :', FNAME);
 console.log('LNAME :', LNAME);
+
+function calcAgeRetire(year) {
+  const age = new Date().getFullYear() - year;
+}
