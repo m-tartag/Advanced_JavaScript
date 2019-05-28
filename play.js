@@ -1,7 +1,9 @@
-function spreadOut() {
-  const fragment = ['to', 'code'];
-  const sentence = ['learning', ...fragment, 'is', 'fun'];
-  return sentence;
-}
+const x = 42;
 
-console.log(spreadOut());
+try {
+  console.log(nkglhjkb);
+} catch (err) {
+  console.error(err);
+} finally {
+  console.log('Hello');
+}
