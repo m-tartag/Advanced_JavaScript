@@ -25,10 +25,16 @@ const numbers = [
 // 2. Display numbers below showing only numbers that are greater than 72 and less then 88 (inclusive) using the filter method
 // Answer:
 
-function checkNum(age) {
-  return age > 72 && age < 88;
-}
-console.log(numbers.filter(checkNum));
+const Filterer = numbers.filter(function(num) {
+  return num > 72 && num < 88;
+});
 
+console.log('Filterer :', Filterer);
 // 3. Display the product of all numbers using reduce
 // Answer:
+
+const Reducer = numbers.reduce(function(acc, total) {
+  return acc + total;
+});
+
+console.log('Reducer :', Reducer);
