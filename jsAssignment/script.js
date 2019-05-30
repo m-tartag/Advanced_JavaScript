@@ -68,6 +68,6 @@ const numbers = [
     acc,
     total
   ) {
-    return acc + total;
+    return acc * total;
   });
 })();
