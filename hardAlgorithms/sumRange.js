@@ -8,4 +8,4 @@ function sumAll(arr) {
   console.log(storage);
 }
 
-sumAll([1, 4, 12]);
+sumAll([1, 10]);
