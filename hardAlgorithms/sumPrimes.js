@@ -21,4 +21,4 @@ function sumPrimes(num) {
   console.log(prime);
 }
 
-sumPrimes(5);
+sumPrimes(10);
